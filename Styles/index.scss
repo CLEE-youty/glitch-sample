@@ -1,0 +1,70 @@
+﻿@import "rgbshift";
+@import "glitch";
+
+.glitch {
+    background: #000 no-repeat center;
+    background-size: 0; // `.glitch` 自体には背景画像を表示しないようにする
+    height: 100vh; // width や height は自由
+    overflow: hidden;
+    position: relative;
+
+    &::before,
+    &::after,
+    .channel {
+        background: inherit; // コンテナ要素の背景を継承
+        background-size: cover;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    // あとの実装のため上記 `.channel` と分けて記述
+    .channel {
+        mix-blend-mode: screen; // 各チャンネルをスクリーンで重ねると元の画像に合成することができる
+        &::before {
+            bottom: 0;
+            content: "";
+            display: block;
+            left: 0;
+            mix-blend-mode: multiply; // 画像に R/G/B を乗算で重ねるとそれぞれのチャンネルを作ることができる
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    &::before {
+        @include glitch(before);
+        content: "";
+    }
+
+    &::after {
+        @include glitch(after);
+        content: "";
+    }
+
+    .r {
+        @include rgb-shift(r);
+
+        &::before {
+            background: #f00;
+        }
+    }
+
+    .g {
+        @include rgb-shift(g);
+
+        &::before {
+            background: #0f0;
+        }
+    }
+
+    .b {
+        @include rgb-shift(b);
+
+        &::before {
+            background: #00f;
+        }
+    }
+}

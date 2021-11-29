@@ -9,7 +9,10 @@
 }
 
 .sidebar[b-dj1mk1eabc] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    position: absolute;
+    background: transparent;
+    width: 100vw;
+    z-index: 2;
 }
 
 .top-row[b-dj1mk1eabc] {
@@ -51,9 +54,6 @@
     }
 
     .sidebar[b-dj1mk1eabc] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
         top: 0;
     }
 
@@ -62,9 +62,7 @@
         top: 0;
         z-index: 1;
     }
-
-    .main > div[b-dj1mk1eabc] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
+    .nav-item[b-dj1mk1eabc] {
+        width: 250px;
     }
 }
