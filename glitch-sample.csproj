@@ -22,4 +22,13 @@
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Components\Template\Glitch - コピー.razor.css">
+      <DependentUpon>Glitch.razor.css</DependentUpon>
+    </None>
+    <None Update="Components\Template\Glitch - コピー.razor.min.css">
+      <DependentUpon>Glitch.razor.min.css</DependentUpon>
+    </None>
+  </ItemGroup>
+
 </Project>

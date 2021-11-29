@@ -1,6 +1,27 @@
 ﻿[
-  {
-    "outputFile": "Pages/index.razor.css",
-    "inputFile": "Styles/index.scss"
-  }
+    /* Components */
+
+    // Template
+    {
+        "outputFile": "Components/Template/Glitch.razor.css",
+        "inputFile": "Styles/Glitch.scss"
+    },
+    {
+        "outputFile": "Components/Template/GlitchOverlay.razor.css",
+        "inputFile": "Styles/Glitch.scss"
+    },
+
+    // Organisms
+
+    // Molecules
+    {
+        "outputFile": "Components/Molecules/FvOverlay.razor.css",
+        "inputFile": "Styles/FvOverlay.scss"
+    },
+
+    // Atoms
+    {
+        "outputFile": "Components/Atoms/FvTitle.razor.css",
+        "inputFile": "Styles/FvTitle.scss"
+    }
 ]
