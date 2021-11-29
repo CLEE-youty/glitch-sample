@@ -79,6 +79,27 @@ using glitch_sample.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\ysspe\Documents\WorkSpace\glitch-sample\_Imports.razor"
+using glitch_sample.Components.Template;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\ysspe\Documents\WorkSpace\glitch-sample\_Imports.razor"
+using glitch_sample.Components.Molecules;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\Users\ysspe\Documents\WorkSpace\glitch-sample\_Imports.razor"
+using glitch_sample.Components.Atoms;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

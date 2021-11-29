@@ -1,14 +1,16 @@
 @import '';
 
-/* /Pages/index.razor.rz.scp.css */
-.glitch[b-91upex8iq2] {
+/* /Components/Atoms/FvTitle.razor.rz.scp.css */
+/* /Components/Molecules/FvOverlay.razor.rz.scp.css */
+/* /Components/Template/Glitch.razor.rz.scp.css */
+.glitch[b-iskzyhd47c] {
   background: #000 no-repeat center;
   background-size: 0;
   height: 100vh;
   overflow: hidden;
   position: relative; }
-  .glitch[b-91upex8iq2]::before, .glitch[b-91upex8iq2]::after,
-  .glitch .channel[b-91upex8iq2] {
+  .glitch[b-iskzyhd47c]::before, .glitch[b-iskzyhd47c]::after,
+  .glitch .channel[b-iskzyhd47c] {
     background: inherit;
     background-size: cover;
     bottom: 0;
@@ -16,9 +18,9 @@
     position: absolute;
     right: 0;
     top: 0; }
-  .glitch .channel[b-91upex8iq2] {
+  .glitch .channel[b-iskzyhd47c] {
     mix-blend-mode: screen; }
-    .glitch .channel[b-91upex8iq2]::before {
+    .glitch .channel[b-iskzyhd47c]::before {
       bottom: 0;
       content: "";
       display: block;
@@ -27,165 +29,352 @@
       position: absolute;
       right: 0;
       top: 0; }
-  .glitch[b-91upex8iq2]::before {
-    animation: glitch-before-b-91upex8iq2 3s linear infinite alternate both;
+  .glitch[b-iskzyhd47c]::before {
+    animation: glitch-before-b-iskzyhd47c 3s linear infinite alternate both;
     content: ""; }
 
-@keyframes glitch-before-b-91upex8iq2 {
+@keyframes glitch-before-b-iskzyhd47c {
   0% {
-    clip-path: polygon(0% 22.98734%, 100% 22.98734%, 100% 29.88462%, 0% 29.88462%);
-    transform: translate(2.50526%, -0.02009%); }
+    clip-path: polygon(0% 66.94629%, 100% 66.94629%, 100% 76.48484%, 0% 76.48484%);
+    transform: translate(-1.42666%, 0.45279%); }
   2% {
-    clip-path: polygon(0% 31.97466%, 100% 31.97466%, 100% 33.31128%, 0% 33.31128%);
-    transform: translate(-0.18777%, 0.18215%); }
+    clip-path: polygon(0% 85.99481%, 100% 85.99481%, 100% 87.06822%, 0% 87.06822%);
+    transform: translate(-5.28171%, 0.47413%); }
   4% {
-    clip-path: polygon(0% 58.47987%, 100% 58.47987%, 100% 64.75762%, 0% 64.75762%);
-    transform: translate(-0.79901%, -0.05331%); }
+    clip-path: polygon(0% 18.61018%, 100% 18.61018%, 100% 24.3741%, 0% 24.3741%);
+    transform: translate(1.16741%, 0.43774%); }
   6% {
-    clip-path: polygon(0% 74.32224%, 100% 74.32224%, 100% 80.76942%, 0% 80.76942%);
-    transform: translate(-0.61789%, -0.11796%); }
+    clip-path: polygon(0% 35.69317%, 100% 35.69317%, 100% 39.82015%, 0% 39.82015%);
+    transform: translate(4.84462%, -0.37003%); }
   8% {
-    clip-path: polygon(0% 82.74814%, 100% 82.74814%, 100% 89.19888%, 0% 89.19888%);
-    transform: translate(-1.11146%, -0.113%); }
+    clip-path: polygon(0% 49.83597%, 100% 49.83597%, 100% 57.86043%, 0% 57.86043%);
+    transform: translate(1.09451%, 0.35999%); }
   10% {
-    clip-path: polygon(0% 46.58361%, 100% 46.58361%, 100% 47.88193%, 0% 47.88193%);
-    transform: translate(5.09345%, -0.2111%); }
+    clip-path: polygon(0% 1.13575%, 100% 1.13575%, 100% 6.15934%, 0% 6.15934%);
+    transform: translate(5.73568%, -0.22032%); }
   12% {
-    clip-path: polygon(0% 27.48959%, 100% 27.48959%, 100% 29.19125%, 0% 29.19125%);
-    transform: translate(-0.67574%, 0.02883%); }
+    clip-path: polygon(0% 33.45672%, 100% 33.45672%, 100% 42.61009%, 0% 42.61009%);
+    transform: translate(-2.03437%, 0.39069%); }
   14% {
-    clip-path: polygon(0% 21.3352%, 100% 21.3352%, 100% 27.06176%, 0% 27.06176%);
-    transform: translate(-4.50493%, -0.16719%); }
+    clip-path: polygon(0% 36.54876%, 100% 36.54876%, 100% 45.07219%, 0% 45.07219%);
+    transform: translate(2.03108%, -0.0851%); }
   16% {
-    clip-path: polygon(0% 6.89199%, 100% 6.89199%, 100% 9.8602%, 0% 9.8602%);
-    transform: translate(-3.77927%, -0.40404%); }
+    clip-path: polygon(0% 67.46284%, 100% 67.46284%, 100% 74.07227%, 0% 74.07227%);
+    transform: translate(-1.21494%, 0.14506%); }
   18% {
-    clip-path: polygon(0% 79.22329%, 100% 79.22329%, 100% 81.48322%, 0% 81.48322%);
-    transform: translate(-6.89343%, 0.23242%); }
+    clip-path: polygon(0% 6.31233%, 100% 6.31233%, 100% 8.6448%, 0% 8.6448%);
+    transform: translate(-4.93355%, -0.07914%); }
   20%, 100% {
     clip-path: none;
     transform: none; } }
-  .glitch[b-91upex8iq2]::after {
-    animation: glitch-after-b-91upex8iq2 3s linear infinite alternate both;
+  .glitch[b-iskzyhd47c]::after {
+    animation: glitch-after-b-iskzyhd47c 3s linear infinite alternate both;
     content: ""; }
 
-@keyframes glitch-after-b-91upex8iq2 {
+@keyframes glitch-after-b-iskzyhd47c {
   0% {
-    clip-path: polygon(0% 41.4119%, 100% 41.4119%, 100% 50.0409%, 0% 50.0409%);
-    transform: translate(-0.40147%, 0.26019%); }
+    clip-path: polygon(0% 56.5187%, 100% 56.5187%, 100% 64.98424%, 0% 64.98424%);
+    transform: translate(3.64027%, -0.37813%); }
   2% {
-    clip-path: polygon(0% 45.85179%, 100% 45.85179%, 100% 55.56541%, 0% 55.56541%);
-    transform: translate(-2.13015%, -0.09902%); }
+    clip-path: polygon(0% 10.37842%, 100% 10.37842%, 100% 17.95336%, 0% 17.95336%);
+    transform: translate(2.28388%, -0.46595%); }
   4% {
-    clip-path: polygon(0% 83.18761%, 100% 83.18761%, 100% 85.51283%, 0% 85.51283%);
-    transform: translate(2.67873%, 0.24423%); }
+    clip-path: polygon(0% 12.62949%, 100% 12.62949%, 100% 19.54363%, 0% 19.54363%);
+    transform: translate(1.70888%, 0.21993%); }
   6% {
-    clip-path: polygon(0% 57.45906%, 100% 57.45906%, 100% 66.25137%, 0% 66.25137%);
-    transform: translate(-0.64484%, 0.15195%); }
+    clip-path: polygon(0% 30.19385%, 100% 30.19385%, 100% 31.82154%, 0% 31.82154%);
+    transform: translate(6.90462%, -0.01072%); }
   8% {
-    clip-path: polygon(0% 2.31128%, 100% 2.31128%, 100% 7.3541%, 0% 7.3541%);
-    transform: translate(0.93911%, -0.41157%); }
+    clip-path: polygon(0% 87.99741%, 100% 87.99741%, 100% 90.91305%, 0% 90.91305%);
+    transform: translate(2.36694%, -0.0069%); }
   10% {
-    clip-path: polygon(0% 42.81838%, 100% 42.81838%, 100% 51.79785%, 0% 51.79785%);
-    transform: translate(-1.58683%, -0.33677%); }
+    clip-path: polygon(0% 25.58509%, 100% 25.58509%, 100% 30.26906%, 0% 30.26906%);
+    transform: translate(-5.57805%, -0.39022%); }
   12% {
-    clip-path: polygon(0% 25.70718%, 100% 25.70718%, 100% 27.83119%, 0% 27.83119%);
-    transform: translate(-3.52522%, 0.13534%); }
+    clip-path: polygon(0% 66.53468%, 100% 66.53468%, 100% 75.21895%, 0% 75.21895%);
+    transform: translate(2.04434%, 0.31508%); }
   14% {
-    clip-path: polygon(0% 7.49011%, 100% 7.49011%, 100% 10.12995%, 0% 10.12995%);
-    transform: translate(-7.60816%, -0.19768%); }
+    clip-path: polygon(0% 26.79%, 100% 26.79%, 100% 30.68704%, 0% 30.68704%);
+    transform: translate(-5.82003%, 0.31326%); }
   16% {
-    clip-path: polygon(0% 34.63994%, 100% 34.63994%, 100% 37.77295%, 0% 37.77295%);
-    transform: translate(-3.83914%, 0.32479%); }
+    clip-path: polygon(0% 77.2354%, 100% 77.2354%, 100% 78.41664%, 0% 78.41664%);
+    transform: translate(-2.3722%, 0.12%); }
   18% {
-    clip-path: polygon(0% 74.8238%, 100% 74.8238%, 100% 82.69748%, 0% 82.69748%);
-    transform: translate(-7.12267%, 0.47505%); }
+    clip-path: polygon(0% 36.28686%, 100% 36.28686%, 100% 40.7031%, 0% 40.7031%);
+    transform: translate(5.80286%, -0.3325%); }
   20%, 100% {
     clip-path: none;
     transform: none; } }
-  .glitch .r[b-91upex8iq2] {
-    animation: rgb-shift-r-b-91upex8iq2 3s steps(1, jump-end) infinite alternate both; }
+  .glitch .r[b-iskzyhd47c] {
+    animation: rgb-shift-r-b-iskzyhd47c 3s steps(1, jump-end) infinite alternate both; }
 
-@keyframes rgb-shift-r-b-91upex8iq2 {
+@keyframes rgb-shift-r-b-iskzyhd47c {
   0% {
-    transform: translate(-0.17213%, -0.13706%); }
+    transform: translate(-1.7433%, 0.04827%); }
   2% {
-    transform: translate(0.97363%, -0.29085%); }
+    transform: translate(-0.98339%, 0.37179%); }
   4% {
-    transform: translate(-1.43511%, 0.10366%); }
+    transform: translate(0.93038%, 0.38971%); }
   6% {
-    transform: translate(1.67034%, 0.49636%); }
+    transform: translate(-0.71466%, -0.20558%); }
   8% {
-    transform: translate(0.09752%, 0.10578%); }
+    transform: translate(-0.85749%, 0.24043%); }
   10% {
-    transform: translate(-0.17927%, -0.19477%); }
+    transform: translate(0.02584%, 0.38386%); }
   12% {
-    transform: translate(0.93332%, -0.11343%); }
+    transform: translate(-1.32442%, -0.30495%); }
   14% {
-    transform: translate(0.60315%, 0.02082%); }
+    transform: translate(0.11185%, 0.38169%); }
   16% {
-    transform: translate(1.63209%, -0.20596%); }
+    transform: translate(1.44543%, -0.30197%); }
   18% {
-    transform: translate(-1.18619%, 0.38313%); }
+    transform: translate(-1.7013%, -0.47326%); }
   20%, 100% {
     transform: none; } }
-    .glitch .r[b-91upex8iq2]::before {
+    .glitch .r[b-iskzyhd47c]::before {
       background: #f00; }
-  .glitch .g[b-91upex8iq2] {
-    animation: rgb-shift-g-b-91upex8iq2 3s steps(1, jump-end) infinite alternate both; }
+  .glitch .g[b-iskzyhd47c] {
+    animation: rgb-shift-g-b-iskzyhd47c 3s steps(1, jump-end) infinite alternate both; }
 
-@keyframes rgb-shift-g-b-91upex8iq2 {
+@keyframes rgb-shift-g-b-iskzyhd47c {
   0% {
-    transform: translate(0.36297%, -0.44265%); }
+    transform: translate(-1.63757%, 0.30045%); }
   2% {
-    transform: translate(-1.87741%, -0.33885%); }
+    transform: translate(1.7523%, 0.02903%); }
   4% {
-    transform: translate(0.70937%, 0.39834%); }
+    transform: translate(-0.74616%, 0.48435%); }
   6% {
-    transform: translate(-1.90561%, 0.49406%); }
+    transform: translate(-1.99036%, -0.04367%); }
   8% {
-    transform: translate(1.83861%, -0.41378%); }
+    transform: translate(-0.87207%, 0.25247%); }
   10% {
-    transform: translate(0.18474%, -0.17754%); }
+    transform: translate(1.18683%, 0.46145%); }
   12% {
-    transform: translate(0.35975%, 0.26062%); }
+    transform: translate(1.55716%, 0.25652%); }
   14% {
-    transform: translate(0.85401%, 0.174%); }
+    transform: translate(1.62837%, -0.40588%); }
   16% {
-    transform: translate(-0.67585%, 0.23483%); }
+    transform: translate(0.87183%, 0.11808%); }
   18% {
-    transform: translate(-0.07908%, 0.07134%); }
+    transform: translate(0.46133%, 0.18644%); }
   20%, 100% {
     transform: none; } }
-    .glitch .g[b-91upex8iq2]::before {
+    .glitch .g[b-iskzyhd47c]::before {
       background: #0f0; }
-  .glitch .b[b-91upex8iq2] {
-    animation: rgb-shift-b-b-91upex8iq2 3s steps(1, jump-end) infinite alternate both; }
+  .glitch .b[b-iskzyhd47c] {
+    animation: rgb-shift-b-b-iskzyhd47c 3s steps(1, jump-end) infinite alternate both; }
 
-@keyframes rgb-shift-b-b-91upex8iq2 {
+@keyframes rgb-shift-b-b-iskzyhd47c {
   0% {
-    transform: translate(1.24793%, 0.30722%); }
+    transform: translate(-0.92158%, -0.10274%); }
   2% {
-    transform: translate(1.31725%, -0.45094%); }
+    transform: translate(1.03426%, -0.41265%); }
   4% {
-    transform: translate(-1.49516%, -0.18612%); }
+    transform: translate(-0.14458%, -0.03509%); }
   6% {
-    transform: translate(-0.03185%, 0.46557%); }
+    transform: translate(1.66829%, -0.16344%); }
   8% {
-    transform: translate(1.84925%, -0.14252%); }
+    transform: translate(1.8246%, 0.01772%); }
   10% {
-    transform: translate(0.49896%, 0.15134%); }
+    transform: translate(0.91695%, -0.3918%); }
   12% {
-    transform: translate(1.23971%, 0.45006%); }
+    transform: translate(-1.20639%, 0.16651%); }
   14% {
-    transform: translate(-0.46905%, 0.22805%); }
+    transform: translate(-0.95774%, -0.44241%); }
   16% {
-    transform: translate(1.78163%, -0.22043%); }
+    transform: translate(1.69125%, 0.40171%); }
   18% {
-    transform: translate(1.91533%, -0.14011%); }
+    transform: translate(0.14035%, -0.44179%); }
   20%, 100% {
     transform: none; } }
-    .glitch .b[b-91upex8iq2]::before {
+    .glitch .b[b-iskzyhd47c]::before {
+      background: #00f; }
+/* /Components/Template/GlitchOverlay.razor.rz.scp.css */
+.glitch[b-g1doqfvnbv] {
+  background: #000 no-repeat center;
+  background-size: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative; }
+  .glitch[b-g1doqfvnbv]::before, .glitch[b-g1doqfvnbv]::after,
+  .glitch .channel[b-g1doqfvnbv] {
+    background: inherit;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .glitch .channel[b-g1doqfvnbv] {
+    mix-blend-mode: screen; }
+    .glitch .channel[b-g1doqfvnbv]::before {
+      bottom: 0;
+      content: "";
+      display: block;
+      left: 0;
+      mix-blend-mode: multiply;
+      position: absolute;
+      right: 0;
+      top: 0; }
+  .glitch[b-g1doqfvnbv]::before {
+    animation: glitch-before-b-g1doqfvnbv 3s linear infinite alternate both;
+    content: ""; }
+
+@keyframes glitch-before-b-g1doqfvnbv {
+  0% {
+    clip-path: polygon(0% 8.45797%, 100% 8.45797%, 100% 16.25895%, 0% 16.25895%);
+    transform: translate(0.54941%, -0.28921%); }
+  2% {
+    clip-path: polygon(0% 51.74954%, 100% 51.74954%, 100% 55.1114%, 0% 55.1114%);
+    transform: translate(-3.22184%, -0.01722%); }
+  4% {
+    clip-path: polygon(0% 76.8764%, 100% 76.8764%, 100% 79.3053%, 0% 79.3053%);
+    transform: translate(2.43636%, 0.20032%); }
+  6% {
+    clip-path: polygon(0% 78.15009%, 100% 78.15009%, 100% 83.78626%, 0% 83.78626%);
+    transform: translate(-0.86667%, 0.02377%); }
+  8% {
+    clip-path: polygon(0% 56.25322%, 100% 56.25322%, 100% 64.52271%, 0% 64.52271%);
+    transform: translate(-6.66537%, -0.0414%); }
+  10% {
+    clip-path: polygon(0% 53.72906%, 100% 53.72906%, 100% 61.75813%, 0% 61.75813%);
+    transform: translate(1.25407%, -0.43078%); }
+  12% {
+    clip-path: polygon(0% 21.7509%, 100% 21.7509%, 100% 25.87906%, 0% 25.87906%);
+    transform: translate(-6.81184%, -0.33004%); }
+  14% {
+    clip-path: polygon(0% 28.24653%, 100% 28.24653%, 100% 33.9084%, 0% 33.9084%);
+    transform: translate(0.61043%, 0.3909%); }
+  16% {
+    clip-path: polygon(0% 31.70711%, 100% 31.70711%, 100% 34.22941%, 0% 34.22941%);
+    transform: translate(-5.9577%, -0.05798%); }
+  18% {
+    clip-path: polygon(0% 30.8474%, 100% 30.8474%, 100% 32.44397%, 0% 32.44397%);
+    transform: translate(-2.82772%, -0.05929%); }
+  20%, 100% {
+    clip-path: none;
+    transform: none; } }
+  .glitch[b-g1doqfvnbv]::after {
+    animation: glitch-after-b-g1doqfvnbv 3s linear infinite alternate both;
+    content: ""; }
+
+@keyframes glitch-after-b-g1doqfvnbv {
+  0% {
+    clip-path: polygon(0% 59.58837%, 100% 59.58837%, 100% 63.40411%, 0% 63.40411%);
+    transform: translate(-2.71559%, 0.02082%); }
+  2% {
+    clip-path: polygon(0% 89.98557%, 100% 89.98557%, 100% 97.67685%, 0% 97.67685%);
+    transform: translate(-0.58724%, -0.45817%); }
+  4% {
+    clip-path: polygon(0% 0.10659%, 100% 0.10659%, 100% 6.55623%, 0% 6.55623%);
+    transform: translate(-1.98175%, -0.31886%); }
+  6% {
+    clip-path: polygon(0% 37.01983%, 100% 37.01983%, 100% 43.1105%, 0% 43.1105%);
+    transform: translate(3.11731%, 0.38233%); }
+  8% {
+    clip-path: polygon(0% 40.98881%, 100% 40.98881%, 100% 45.63564%, 0% 45.63564%);
+    transform: translate(-7.28685%, 0.31443%); }
+  10% {
+    clip-path: polygon(0% 56.85525%, 100% 56.85525%, 100% 58.34983%, 0% 58.34983%);
+    transform: translate(-2.89963%, -0.1537%); }
+  12% {
+    clip-path: polygon(0% 59.13424%, 100% 59.13424%, 100% 67.28073%, 0% 67.28073%);
+    transform: translate(-5.98813%, 0.36286%); }
+  14% {
+    clip-path: polygon(0% 48.10263%, 100% 48.10263%, 100% 50.03964%, 0% 50.03964%);
+    transform: translate(0.14722%, -0.15635%); }
+  16% {
+    clip-path: polygon(0% 68.73623%, 100% 68.73623%, 100% 73.24557%, 0% 73.24557%);
+    transform: translate(5.58538%, 0.43217%); }
+  18% {
+    clip-path: polygon(0% 50.29468%, 100% 50.29468%, 100% 57.32257%, 0% 57.32257%);
+    transform: translate(-2.02278%, -0.30634%); }
+  20%, 100% {
+    clip-path: none;
+    transform: none; } }
+  .glitch .r[b-g1doqfvnbv] {
+    animation: rgb-shift-r-b-g1doqfvnbv 3s steps(1, jump-end) infinite alternate both; }
+
+@keyframes rgb-shift-r-b-g1doqfvnbv {
+  0% {
+    transform: translate(-0.56246%, 0.14839%); }
+  2% {
+    transform: translate(0.04447%, -0.4777%); }
+  4% {
+    transform: translate(1.33771%, -0.36879%); }
+  6% {
+    transform: translate(-0.42195%, -0.26194%); }
+  8% {
+    transform: translate(-1.04237%, 0.16607%); }
+  10% {
+    transform: translate(1.73771%, -0.11559%); }
+  12% {
+    transform: translate(1.01989%, 0.48374%); }
+  14% {
+    transform: translate(-1.00051%, 0.37275%); }
+  16% {
+    transform: translate(-0.98836%, -0.16561%); }
+  18% {
+    transform: translate(-0.09897%, 0.40802%); }
+  20%, 100% {
+    transform: none; } }
+    .glitch .r[b-g1doqfvnbv]::before {
+      background: #f00; }
+  .glitch .g[b-g1doqfvnbv] {
+    animation: rgb-shift-g-b-g1doqfvnbv 3s steps(1, jump-end) infinite alternate both; }
+
+@keyframes rgb-shift-g-b-g1doqfvnbv {
+  0% {
+    transform: translate(1.86542%, -0.39644%); }
+  2% {
+    transform: translate(0.89563%, 0.26702%); }
+  4% {
+    transform: translate(0.48075%, 0.06677%); }
+  6% {
+    transform: translate(-1.46305%, -0.12087%); }
+  8% {
+    transform: translate(1.09192%, -0.41596%); }
+  10% {
+    transform: translate(1.61674%, -0.00377%); }
+  12% {
+    transform: translate(0.02027%, -0.01547%); }
+  14% {
+    transform: translate(-1.6146%, -0.07807%); }
+  16% {
+    transform: translate(1.13416%, -0.23731%); }
+  18% {
+    transform: translate(1.63025%, 0.34351%); }
+  20%, 100% {
+    transform: none; } }
+    .glitch .g[b-g1doqfvnbv]::before {
+      background: #0f0; }
+  .glitch .b[b-g1doqfvnbv] {
+    animation: rgb-shift-b-b-g1doqfvnbv 3s steps(1, jump-end) infinite alternate both; }
+
+@keyframes rgb-shift-b-b-g1doqfvnbv {
+  0% {
+    transform: translate(0.83179%, 0.18949%); }
+  2% {
+    transform: translate(0.42336%, 0.19231%); }
+  4% {
+    transform: translate(-1.30624%, 0.29077%); }
+  6% {
+    transform: translate(-1.61516%, -0.29306%); }
+  8% {
+    transform: translate(-1.90415%, -0.01738%); }
+  10% {
+    transform: translate(-1.57566%, -0.14697%); }
+  12% {
+    transform: translate(-0.70972%, 0.11292%); }
+  14% {
+    transform: translate(-1.59632%, 0.01663%); }
+  16% {
+    transform: translate(-1.19751%, -0.15111%); }
+  18% {
+    transform: translate(0.4862%, 0.26527%); }
+  20%, 100% {
+    transform: none; } }
+    .glitch .b[b-g1doqfvnbv]::before {
       background: #00f; }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-dj1mk1eabc] {
@@ -307,15 +496,4 @@
 .nav-item[b-9qygeiaq4p]  a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
-}
-
-@media (min-width: 641px) {
-    .navbar-toggler[b-9qygeiaq4p] {
-        display: none;
-    }
-
-    .collapse[b-9qygeiaq4p] {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
 }
