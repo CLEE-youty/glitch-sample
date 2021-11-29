@@ -90,7 +90,7 @@ using glitch_sample.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\ysspe\Documents\WorkSpace\glitch-sample\Shared\NavMenu.razor"
+#line 18 "C:\Users\ysspe\Documents\WorkSpace\glitch-sample\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

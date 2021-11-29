@@ -396,7 +396,6 @@ C:\Users\ysspe\Documents\WorkSpace\glitch-sample\bin\Debug\net5.0\wwwroot\_frame
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.3.js
-C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.csprojAssemblyReference.cache
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.AssemblyInfoInputs.cache
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.AssemblyInfo.cs
@@ -404,8 +403,6 @@ C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.RazorComponent.input.cache
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -417,8 +414,6 @@ C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.TagHelpers.output.cache
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.RazorCoreGenerate.cache
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
-C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
@@ -630,3 +625,6 @@ C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.dll
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\ref\glitch-sample.dll
 C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.pdb
+C:\Users\ysspe\Documents\WorkSpace\glitch-sample\bin\Debug\net5.0\firebase.json
+C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\scopedcss\Pages\index.razor.rz.scp.css
+C:\Users\ysspe\Documents\WorkSpace\glitch-sample\obj\Debug\net5.0\glitch-sample.csprojAssemblyReference.cache
